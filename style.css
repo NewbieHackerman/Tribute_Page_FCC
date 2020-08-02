@@ -1,0 +1,170 @@
+body {
+    background-color: rgb(48,48,48);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Chewy', cursive;
+  }
+  
+  
+  #main {
+    border-radius: 20px;
+    background-color: black;  
+    width: 1080px;
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    box-shadow: 0px 0px 10px 5px black;
+  }
+  
+  .img {
+    display: block;
+    max-width: 100%;
+    justify-content: center;
+  }
+  
+  .responsive-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  #image {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    
+  }
+  
+  #img-caption {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 3rem;
+  }
+  
+  #title {
+    font-size: 5rem;
+    text-align: center;
+    margin: 5px;
+    
+    
+    
+  }
+  
+  .img-div {
+    max-widht: 100%;
+    justify-content: center;
+  }
+  
+  .blue {
+    color: rgb(169,210,234);
+  }
+  
+  .header {
+    display: flex;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #tribute-info {
+    padding: 0px 30px 0px 30px;
+    font-size: 2rem;
+  }
+  
+  .list-item {
+    list-style-type: none;
+    padding: 20px;
+  }
+  
+  .acid {
+    color: rgb(176, 191, 26);
+  }
+  
+  .pickle {
+    color: rgb(85,110,60);
+  }
+  
+  .aquamarine {
+    color: rgb(119,255,255);
+  }
+  
+  .morty {
+    color: rgb(239,235,123);
+  }
+  
+  .wedding {
+    color: orange;
+  }
+  
+  .netflix {
+    color: red;
+    text-decoration: none;
+  }
+  
+  .netflix:hover {
+    text-decoration: underline;
+  }
+  
+  .quote-text {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0px 50px 0px 50px;
+    font-style: italic;
+    margin-bottom: 100px;
+   
+  }
+  
+  p {
+    font-size: 2rem;
+    text-align: center;
+    margin: 20px 70px 70px 70px;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .right {
+    text-align: right;
+  }
+  
+  
+  .purple {
+    color: purple;
+  }
+  
+  .yellow {
+    color: yellow;
+  }
+  
+  .green {
+    color: green;
+  }
+  
+  .pink {
+    color: pink;
+  }
+  
+  @media only screen and (max-width: 900px) {
+    #img-div {
+      display: none;
+    }
+  }
